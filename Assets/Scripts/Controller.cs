@@ -5,9 +5,9 @@ public class Controller : MonoBehaviour
 {
     public float WalkSpeed = 2.0f;
     public CharacterController controller;
-    public float jumpForce = 20.0f;
+    public float jumpForce = 30.0f;
     private bool isGrounded;
-    public float Gravity = 1.0f;
+    public float Gravity = .01f;
     private float MovementY;
     private bool isCrouched;
 
